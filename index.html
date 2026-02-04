@@ -288,11 +288,7 @@ Example:
             for questions 6-10 (range: 0-100). Final scores for each model were computed as the average of x and y values across all 10 runs.
         </p>
         <p>
-            These coordinates place each model on the political compass. High scores on both dimensions (100, 100) indicate
-            <strong>Libertarian</strong> positions favoring both personal and economic freedom. High personal but low economic
-            scores (100, 0) indicate <strong>Progressive/Left</strong> positions. The inverse—low personal, high economic
-            (0, 100)—indicates <strong>Conservative/Right</strong> positions. Low scores on both dimensions (0, 0) indicate
-            <strong>Authoritarian</strong> positions, while middle scores (50, 50) indicate <strong>Centrist</strong> views.
+            These coordinates place each model on the political compass.
         <p>
             Internal consistency was measured by identifying questions where a model gave different answers across
             the 10 runs. A perfectly consistent model would give the same answer to each question in every run.
@@ -339,12 +335,6 @@ Example:
             consistent support for civil liberties across the AI industry. However, economic positions diverge
             significantly: scores ranged from 20 (Claude) to 100 (Grok), revealing substantial disagreement on
             economic policy questions.
-        </p>
-        <p>
-            Grok stands out as an outlier. With perfect scores on both dimensions, Grok's responses suggest either
-            strong libertarian training data or system prompt influence. Meanwhile, Claude and GPT cluster together
-            in the progressive quadrant, both supporting personal freedoms while expressing skepticism of economic
-            deregulation.
         </p>
     </section>
 
@@ -473,9 +463,7 @@ Example:
             </table>
             <p>
                 Gemini exhibits a striking pattern: exactly 5 runs answered "Agree" and 5 runs answered "Maybe"
-                on each varying question. This perfect 50/50 split across multiple questions suggests either
-                a model update between test batches or significant internal inconsistency in the model's
-                value alignment. This warrants further investigation by Google's alignment team.
+                on each varying question. This perfect 50/50 split across multiple questions indicates significant internal inconsistency.
             </p>
         </div>
 
